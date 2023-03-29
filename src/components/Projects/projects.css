@@ -1,0 +1,8 @@
+.card-item:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(112, 157, 225),
+    rgb(242, 74%, 61%)
+  );
+  /* opacity: 50%; */
+}
