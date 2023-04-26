@@ -1,55 +1,55 @@
-import React from 'react';
-import HTML from '../assets/html.png';
-import CSS from '../assets/css.png';
-import JavaScript from '../assets/javascript.png';
-import ReactImg from '../assets/react2.png';
-import Node from '../assets/node.png';
-import GitHub from '../assets/github.png';
-import Tailwind from '../assets/tailwind.png';
-import Mongo from '../assets/mongo.png';
+import React from "react"
+import HTML from "../assets/html.png"
+import CSS from "../assets/css.png"
+import JavaScript from "../assets/javascript.png"
+import ReactImg from "../assets/react2.png"
+import Node from "../assets/node.png"
+import GitHub from "../assets/github.png"
+import Tailwind from "../assets/tailwind.png"
+import Mongo from "../assets/mongo.png"
 //    bg-[#5031a9] text-[#ffffff]    border-[#fcd303]
 const skill = [
   {
     id: 1,
     img: HTML,
-    title: 'html',
+    title: "html",
   },
   {
     id: 2,
     img: CSS,
-    title: 'CSS',
+    title: "CSS",
   },
   {
     id: 3,
     img: JavaScript,
-    title: 'JavaScript',
+    title: "JavaScript",
   },
   {
     id: 4,
     img: ReactImg,
-    title: 'React',
+    title: "React",
   },
   {
     id: 5,
     img: GitHub,
-    title: 'GitHub',
+    title: "GitHub",
   },
   {
     id: 6,
     img: Node,
-    title: 'Node js',
+    title: "Node js",
   },
   {
     id: 7,
     img: Mongo,
-    title: 'Mongo-db',
+    title: "Mongo-db",
   },
   {
     id: 8,
     img: Tailwind,
-    title: 'Tailwind',
+    title: "Tailwind",
   },
-];
+]
 
 const Skills = () => {
   return (
@@ -66,7 +66,6 @@ const Skills = () => {
             Skills
           </p>
           <p className="py-6 text-2xl">
-            {' '}
             These are the technologies I've worked with
           </p>
         </div>
@@ -81,12 +80,12 @@ const Skills = () => {
                 <img className="w-20 mt-2 mx-auto " src={img} alt={title} />
                 <p className="my-4">{title}</p>
               </div>
-            );
+            )
           })}
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Skills;
+export default Skills
